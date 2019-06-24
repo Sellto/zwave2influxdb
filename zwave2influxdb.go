@@ -17,8 +17,8 @@ const (
     db_name = "ZWave"
     db_user = "zwave"
     db_pass = "zwave"
-    db_addr = "http://10.42.0.55:8086"
-    poll_addr = "http://10.42.0.74:8090/poll.xml"
+    db_addr = "http://influxdb.tick.svc.cluster.local:8086"
+    poll_addr = "http://ozwcp.zwave.svc.cluster.local:8090/poll.xml"
 )
 
 //Catch Error function
